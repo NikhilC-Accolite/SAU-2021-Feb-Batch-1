@@ -1,3 +1,6 @@
+#Ouput ScreenShot
+![OutPUT ScreenShot](https://drive.google.com/file/d/15Sap2ZVFWubWrfCGOPo2fDiH8qfowX0J/view?usp=sharing)
+
 # AngularLogAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
