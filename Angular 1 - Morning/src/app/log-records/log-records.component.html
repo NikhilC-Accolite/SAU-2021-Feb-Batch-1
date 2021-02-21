@@ -1,0 +1,16 @@
+<div  style="height:250px;overflow:auto;">
+    <table class="styled-table" *ngIf="logRecords.length > 0">
+        <thead style>
+            <tr>
+                <th>TimeStamp </th>
+                <th>Text Entered </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="active-row" *ngFor="let record of logRecords">
+                <td>{{ record.key_up_at | date:'short' }}</td>
+                <td>{{record.text}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
