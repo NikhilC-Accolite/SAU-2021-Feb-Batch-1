@@ -1,5 +1,5 @@
 #Ouput ScreenShot
-![OutPUT ScreenShot](https://drive.google.com/file/d/15Sap2ZVFWubWrfCGOPo2fDiH8qfowX0J/view?usp=sharing)
+![OutPUT ScreenShot](https://github.com/NikhilC-Accolite/checknew/blob/master/Screenshot%20(101).png)
 
 # AngularLogAssignment
 
