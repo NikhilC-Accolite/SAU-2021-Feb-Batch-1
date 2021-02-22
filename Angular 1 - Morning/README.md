@@ -1,4 +1,4 @@
-#Ouput ScreenShot
+# Ouput ScreenShot
 ![OutPUT ScreenShot](https://github.com/NikhilC-Accolite/checknew/blob/master/Screenshot%20(101).png)
 
 # AngularLogAssignment
