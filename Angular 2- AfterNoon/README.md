@@ -2,26 +2,33 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-## Development server
+## Home Page 1 showing sessions using mat-card
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(132).png)
 
-## Code scaffolding
+## Home Page 2 showing session modifications such as edit and delete for each session.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(133).png)
 
-## Build
+## Adding new session : React Native
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(134).png)
 
-## Running unit tests
+## Sessions details updated
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(135).png)
 
-## Running end-to-end tests
+## Edit and Remove functionalitoes added to new session "react native"
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(136).png)
 
-## Further help
+## Updating "kafka" course and removing instructor sir name
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(137).png)
+
+## Session cards showing updated "kafka" session
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(138).png)
+
+## deleteing "kafka" course and updated card and functionality table.
+![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(139).png)
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
