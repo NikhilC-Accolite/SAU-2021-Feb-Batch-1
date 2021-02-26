@@ -1,0 +1,75 @@
+<h3>Sessions So Far ... !</h3>
+
+<div
+  style="
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 5px solid #000;
+    background-color: bisque;
+    border-radius: 2em;
+  "
+>
+  <mat-card
+    style="
+      margin: 30px;
+      width: 300px;
+      height: 150px;
+      background-color: rgb(252, 252, 113);
+      display: inline-flex;
+      border-radius: 2em;
+    "
+    *ngFor="let session of sessions"
+  >
+    <mat-card style="border: 5px solid #000; width: 290px;border-radius: 2em;">
+      <mat-card-header
+        ><mat-card-title
+          ><b>{{ session.name }}</b></mat-card-title
+        ></mat-card-header
+      >
+      <mat-card-content style="display: block; padding-left: 35px; font-family: sans-serif;">{{
+        session.instructor
+      }}</mat-card-content>
+      <mat-card-content style="display: block; padding-left: 35px">{{
+        session.description
+      }}</mat-card-content>
+    </mat-card>
+  </mat-card>
+</div>
+<br />
+
+<h2>Want to make changes to these sessions here you go</h2>
+
+<h2>What to add a new session? click the button :</h2>
+<button class="addButton" (click)="addSession()">Add Session</button>
+<div style="text-align: center">
+  <table class="styled-table">
+    <thead style>
+      <tr>
+        <th colspan="2">Session details</th>
+        <th colspan="2">Modify Session Details</th>
+      </tr>
+      <tr>
+        <th>Session Name</th>
+        <th>Session Instructor</th>
+        <th>Edit Session</th>
+        <th>Remove Session</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active-row" *ngFor="let session of sessions">
+        <td>{{ session.name }}</td>
+        <td>{{ session.instructor }}</td>
+        <td>
+          <button class="editButton" (click)="editSession(session)">
+            Edit
+          </button>
+        </td>
+        <td>
+          <button class="removeButton" (click)="deleteSession(session)">
+            Remove
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

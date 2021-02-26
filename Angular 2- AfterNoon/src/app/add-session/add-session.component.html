@@ -1,0 +1,22 @@
+<h3> Fill the below table to add new session : </h3>
+<button class = "addButton" (click)="addToList()">Add session</button>
+
+<div style="text-align: center">
+  <form [formGroup]="sessionForm">
+    <table class="styled-table">
+      <thead style>
+        <tr>
+          <th>Feilds to be updated</th>
+          <th>Values</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="active-row" *ngFor="let feild of session_feilds">
+          <td>{{ feild }}</td>
+          <td><input matInput size = 'lg' formControlName="{{ feild }}" /></td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </form>
+</div>
