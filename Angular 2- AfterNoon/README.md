@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Home Page 1 showing sessions using mat-card
 
-![HomePage](github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(132).png)
+![HomePage](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Angular%202-%20AfterNoon/ScreenShots/Screenshot%20(132).png)
 
 ## Home Page 2 showing session modifications such as edit and delete for each session.
 
