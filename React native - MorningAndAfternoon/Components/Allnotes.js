@@ -4,31 +4,27 @@ import { StyleSheet, Text, View, ScrollView, Button } from 'react-native';
 import AsyncStorage from "@react-native-community/async-storage";
 import Note from "./Note";
 
-const Allnotes = ({ navigation }) => {
-
-    const update = async (id, title, desc) => {
-        // console.log(id);
-        // console.log(title);
-
+const Allnotes = ({ navigation }) => 
+{
+    const update = async (id, title, desc) => 
+    {
         let change = data;
         console.log(change, "ds");
         if (change.length <= id) {
             change.push({"title": title, "desc": desc })
         }
-        else {
+        else 
+        {
             change[id] = {"title": title, "desc": desc };
         }
         console.log(change.length, "dnes");
         console.log(change, "dswewe");
-
-
         setData(change);
         setNote();
-        // console.log(change);
 
     }
-
-    const del = (id) => {
+    const del = (id) => 
+    {
         let change = data;
         change.splice(id, 1);
         setData(change);
@@ -37,19 +33,17 @@ const Allnotes = ({ navigation }) => {
 
     const [data, setData] = useState([]);
     const [notesList, setNotesList] = useState(data.map((note, i) => <Note del={del} update={update} data={note} navigation={navigation} id={i} key={i} />));
-
-
-
     useEffect(() => {
         getNotes()
     }, [])
 
-    useEffect(() => {
-        // console.log(data, "usef"); 
+    useEffect(() =>
+    {
         setNote()
     },[data])
 
-    const getNotes = async () => {
+    const getNotes = async () => 
+    {
         let notes = await AsyncStorage.getItem("notes");
         let usn = await AsyncStorage.getItem("user");
         console.log(usn);
@@ -59,13 +53,10 @@ const Allnotes = ({ navigation }) => {
         }
     }
 
-    const insert = (title, desc) => {
+    const insert = (title, desc) => 
+    {
         navigation.navigate("Note Details", { data: {title: "", desc: "" }, update: update,id:data.length })
     }
-
-
-
-
     const setNote = async () => {
         await AsyncStorage.setItem("notes", JSON.stringify(data));
         setNotesList(data.map((note, i) => <Note del={del} update={update} data={note} navigation={navigation} id={i} key={i} />));
@@ -81,11 +72,8 @@ const Allnotes = ({ navigation }) => {
                     <Text style={styles.text} >No Notes Added</Text>
                 </View> : notesList}
             </ScrollView>
-
-            
         </View>
     )
-
 }
 
 const styles = StyleSheet.create({
@@ -105,6 +93,5 @@ const styles = StyleSheet.create({
     text: {
         marginVertical: "70%"
     }
-
 });
 export default Allnotes;
