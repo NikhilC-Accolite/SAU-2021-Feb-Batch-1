@@ -3,8 +3,8 @@ import { useState } from "react";
 import { View, StyleSheet, Button, Text } from "react-native";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
 
-
-const NoteDetails = ({ route, navigation }) => {
+const NoteDetails = ({ route, navigation }) => 
+{
     const [title, setTitle] = useState(route.params.data.title);
     const [desc, setDesc] = useState(route.params.data.desc);
     const [titleError, setTitleError] = useState();
@@ -35,14 +35,11 @@ const NoteDetails = ({ route, navigation }) => {
                 <TextInput style={styles.textInputStyleText} onChangeText={(text) => setTitle(text)} >{title}</TextInput>
                 <Text style={styles.error}>{titleError}</Text>
             </View>
-
             <View style={styles.mb40}>
                 <Text style={styles.headingDesciption} >Enter Description</Text>
                 <TextInput multiline={true} numberOfLines={3} style={styles.textInputStyleDesc} onChangeText={(text) => setDesc(text)} >{desc}</TextInput>
                 <Text style={styles.error}>{descError}</Text>
             </View>
-
-
             <View style={styles.addnote}>
                 <Button title="Add New Note" color="#83f2d5" onPress={save} />
             </View>
@@ -60,11 +57,9 @@ const styles = StyleSheet.create({
     },
     headingDesciption: {
         fontSize: 30,
-
         fontWeight: "600",
         color:"#009879",
         marginVertical: 5,
-       
     },
     mb30: {
         marginBottom: 20,
@@ -76,7 +71,6 @@ const styles = StyleSheet.create({
         marginBottom: 30,
         width: "100%",
         alignItems: "center",
-
     },
     container: {
         justifyContent:"flex-start",
@@ -102,13 +96,10 @@ const styles = StyleSheet.create({
         textAlign: "center",
         justifyContent: "flex-start",
         textAlignVertical: 'center',
-
-
-
     },
     error:
     {
-        color: "red"
+        color: "black"
     },
     addnote: {
         width: "80%",
