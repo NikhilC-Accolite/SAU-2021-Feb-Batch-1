@@ -2,15 +2,14 @@ import React from "react";
 import { ImageBackground, View, StyleSheet, Text, TouchableTouchableNativeFeedback, Button } from "react-native";
 import { ScrollView, TouchableNativeFeedback } from "react-native-gesture-handler";
 
-const Note = ({ update, data, navigation, id ,del}) => {
-    // console.log(id);
+const Note = ({ update, data, navigation, id ,del}) => 
+{
     const remove = () => {
         del(id);
     };
-    
     return (
         <View style={styles.container}>
-            <ImageBackground style={styles.backgroundImage} imageStyle={{ borderRadius: 10 }}>
+        <ImageBackground style={styles.backgroundImage} imageStyle={{ borderRadius: 10 }}>
         <TouchableNativeFeedback
             onPress={() =>
                 navigation.navigate("Note Details", { data: data, update: update, id: id })
