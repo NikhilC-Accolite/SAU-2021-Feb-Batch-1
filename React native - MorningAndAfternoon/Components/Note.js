@@ -46,8 +46,6 @@ const styles = StyleSheet.create({
         backgroundColor:"#009871",
         padding: 5,
         height:100
-        // flexShrink: 1,
-
     },
     backgroundImage: {
         width: "100%",
@@ -59,7 +57,6 @@ const styles = StyleSheet.create({
         marginRight: "5%",
         marginLeft: "5%",
         height: 190,
-        // marginVertical: 8,
         backgroundColor: "#009871",
     
         marginBottom:"7%"
@@ -70,8 +67,6 @@ const styles = StyleSheet.create({
         alignSelf:"flex-end",
         margin:5,    
         flexWrap:"wrap-reverse",
-
-
     }
 })
 
