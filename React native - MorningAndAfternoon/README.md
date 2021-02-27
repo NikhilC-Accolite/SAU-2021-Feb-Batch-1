@@ -14,8 +14,6 @@ https://user-images.githubusercontent.com/78904066/109386202-282e4480-791f-11eb-
 # Screenshots of the app
 
 ![image](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/React%20native%20-%20MorningAndAfternoon/2.jpeg)
-![image](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/React%20native%20-%20MorningAndAfternoon/3.jpeg)
-
 ![image](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/React%20native%20-%20MorningAndAfternoon/4.jpeg)
 
 ![image](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/React%20native%20-%20MorningAndAfternoon/5.jpeg)
