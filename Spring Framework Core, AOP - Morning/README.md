@@ -15,5 +15,11 @@
 # Question 1 output
 ![question 1](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Spring%20Framework%20Core%2C%20AOP%20-%20Morning/Output%20Screnshots/Question%201%20output.png)
 
+# Question 2
+
+## Create aspect using After, AfterReturning, AfterThrowing, Around advices in AOP.
+## Use pointcut types within, args also along with execution.
+## Refer springAOP project shared on github.
+
 # Question 2 output
 ![question 1](https://github.com/NikhilC-Accolite/SAU-2021-Feb-Batch-1/blob/main/Spring%20Framework%20Core%2C%20AOP%20-%20Morning/Output%20Screnshots/Question%202%20ouput.png)
